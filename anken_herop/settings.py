@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cms.apps.CmsConfig',   # 05/22 追加
     'bootstrap4',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
