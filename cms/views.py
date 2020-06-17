@@ -18,7 +18,6 @@ class MyLoginView(LoginView):
     template_name = "cms/login.html"
 
 
-@login_required
 def anken_list(request):
     """案件一覧"""
     # return HttpResponse('案件一覧')
