@@ -1,9 +1,10 @@
 from django.urls import path
 from cms import views
 
-
 app_name = 'cms'
 urlpatterns = [
+    path('login/', views.MyLoginView.as_view(), name='login'),
+
     path('anken/', views.anken_list, name='anken_list'),
     path('anken/archiveanken/', views.archiveanken_list, name='archiveanken_list'),
     path('anken/weekanken/', views.weekanken_list, name='weekanken_list'),
