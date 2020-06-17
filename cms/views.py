@@ -10,7 +10,6 @@ from django.utils import timezone
 from datetime import date, datetime
 # Create your views here.
 
-
 def anken_list(request):
     """案件一覧"""
     # return HttpResponse('案件一覧')
